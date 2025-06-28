@@ -12,8 +12,13 @@ A simple CLI- and web-based system to manage a collection of movies in a SQLite 
 ## ⚙️ Setup & Dependencies
 To use the system, you need to install the following dependencies:
 
+1. Install Python packages:
 ```bash
 pip install sqlalchemy requests python-dotenv random statistics
+```
+2. Create a file named `.env` in the project root containing your OMDb API key:
+```env
+API_KEY=your_omdb_api_key_here
 ```
 
 - **Python 3.8 or higher** is required.
