@@ -1,11 +1,11 @@
-def enter_movie_name():
-    """Prompt the user to enter a movie title and ensure it is not empty."""
+def enter_string(prompt):
+    """Prompt the user to enter a string and ensure it is not empty."""
     while True:
-        title = input("Enter movie name: ").strip()
-        if not title:
-            print("Input cannot be empty. Please enter a valid movie name.")
+        input_string = input(prompt).strip()
+        if not input_string:
+            print("Input cannot be empty. Please enter a valid string.")
             continue
-        return title
+        return input_string
 
 
 def enter_new_rating(text = "Enter movie rating between 1-10: ", allow_blank = False):

@@ -1,3 +1,4 @@
 .env
 movies.db
 index.html
+__pycache__
